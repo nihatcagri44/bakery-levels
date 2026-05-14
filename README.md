@@ -17,7 +17,14 @@ Remote level JSON content for **Bakery Factory** (gamejam1). Served via jsDelivr
    - Update `updatedAt` to current ISO timestamp
    - Update the hash entry for the changed level under `"levels"` (first 8 chars of SHA-1)
 4. Commit → GitHub Action auto-purges jsDelivr cache (~10–30 s)
-5. Next time the Unity client launches, it sees the new version and refreshes only the changed levels
+5. **Wait 5–30 minutes** for jsDelivr's multi-CDN propagation. Edges in different regions sync from their internal git mirror on independent schedules — purge clears edge cache instantly, but the new GitHub content takes ~5–30 min to land on every node. This is jsDelivr's documented behavior for branch refs (`@main`), not a bug.
+6. Once propagated, every Unity client sees the new manifest at next launch, hash-diffs against its cache, and re-downloads only the changed levels.
+
+### Faster propagation options (future)
+
+If you need updates to land in seconds rather than minutes:
+- **Tag-based releases** — push a new git tag (e.g. `v3`) and update the Unity `remoteBaseUrl` to use `@v3`. jsDelivr caches tags as immutable so they appear instantly. Costs: client-side URL update OR an additional indirection file.
+- **SHA-pinned levels + raw.githubusercontent manifest** — manifest fetched from `raw.githubusercontent.com` (instant), levels fetched from `cdn.jsdelivr.net/.../@<commit-sha>/...` (immutable, instant on first request). This is the production-grade architecture; requires modest code changes in `RemoteLevelService.cs`.
 
 ## Manifest schema
 

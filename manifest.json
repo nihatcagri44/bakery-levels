@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "version": 2,
-  "updatedAt": "2026-05-14T18:47:46Z",
+  "version": 3,
+  "updatedAt": "2026-05-14T19:06:37Z",
   "totalLevels": 200,
-  "notes": "L016 live-update test",
+  "notes": "Revert L016 test note — repo back in sync with Unity Resources",
   "levels": {
     "001": "5bdd5405",
     "002": "8652a32a",
@@ -20,7 +20,7 @@
     "013": "9b7c767e",
     "014": "b69c5515",
     "015": "d6cf98cb",
-    "016": "62493287",
+    "016": "a641a4b0",
     "017": "f1b5381d",
     "018": "c04ca1a6",
     "019": "f620a40c",
