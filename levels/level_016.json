@@ -708,10 +708,6 @@
         "y": 2
       },
       {
-        "x": 5,
-        "y": 3
-      },
-      {
         "x": 6,
         "y": 1
       },
@@ -740,9 +736,6 @@
         "y": 1
       }
     ],
-    "designIntent": {
-      "note": "Drag-drop final test",
-      "iteration": 2
-    }
+    "designIntent": "easy | variant-c-v2-2026-05-12 | shape=letterG p0 1t 1M"
   }
 }
