@@ -1,51 +1,62 @@
 # bakery-levels
 
-Remote level JSON content for **Bakery Factory** (gamejam1). Served via jsDelivr CDN, consumed by the Unity client's `RemoteLevelService`.
+Remote level JSON content for **Bakery Factory** (gamejam1). Served via jsDelivr CDN + GitHub Contents API, consumed by the Unity client's `RemoteLevelService`. Source-of-truth for the **A, B, and C** AB-test variants.
 
 ## Live URLs
 
-- Manifest: `https://cdn.jsdelivr.net/gh/nihatcagri44/bakery-levels@main/manifest.json`
-- Level: `https://cdn.jsdelivr.net/gh/nihatcagri44/bakery-levels@main/levels/level_016.json`
+- Manifest (instant, no cache):
+  `https://api.github.com/repos/nihatcagri44/bakery-levels/contents/manifest.json` (with `Accept: application/vnd.github.raw`)
+- Level (SHA-pinned, immutable):
+  `https://cdn.jsdelivr.net/gh/nihatcagri44/bakery-levels@<repoSha>/<VariantFolder>/level_NNN.json`
 
-## How to update a level (drag-drop flow)
+## How updates flow (drag-drop)
 
-1. Open the level JSON on GitHub (e.g. `levels/level_016.json`)
-2. Click the pencil ✏️ icon → paste new content → **Commit changes**
-   (Or drag a new file over the existing one via "Add file → Upload files")
-3. Update `manifest.json`:
-   - Bump `version` (e.g. `1` → `2`)
-   - Update `updatedAt` to current ISO timestamp
-   - Update the hash entry for the changed level under `"levels"` (first 8 chars of SHA-1)
-4. Commit → GitHub Action auto-purges jsDelivr cache (~10–30 s)
-5. **Wait 5–30 minutes** for jsDelivr's multi-CDN propagation. Edges in different regions sync from their internal git mirror on independent schedules — purge clears edge cache instantly, but the new GitHub content takes ~5–30 min to land on every node. This is jsDelivr's documented behavior for branch refs (`@main`), not a bug.
-6. Once propagated, every Unity client sees the new manifest at next launch, hash-diffs against its cache, and re-downloads only the changed levels.
+The **upstream** source-of-truth is `DawnbrightGames/gamejam1/gamejam1Unity/Assets/Resources/{A,B,C}VariantLevel/`. When a level designer pushes to that repo's `main` branch:
 
-### Faster propagation options (future)
+1. **gamejam1 Action** (`sync-bakery-levels.yml`) — copies the changed JSON files into the matching subfolder here.
+2. **bakery-levels Action** (`purge-jsdelivr.yml`) — runs `regenerate-manifest.sh`, commits the new manifest with `[skip ci]`, purges jsDelivr cache.
+3. Unity clients see the update on their next launch (~60–90 s end-to-end).
 
-If you need updates to land in seconds rather than minutes:
-- **Tag-based releases** — push a new git tag (e.g. `v3`) and update the Unity `remoteBaseUrl` to use `@v3`. jsDelivr caches tags as immutable so they appear instantly. Costs: client-side URL update OR an additional indirection file.
-- **SHA-pinned levels + raw.githubusercontent manifest** — manifest fetched from `raw.githubusercontent.com` (instant), levels fetched from `cdn.jsdelivr.net/.../@<commit-sha>/...` (immutable, instant on first request). This is the production-grade architecture; requires modest code changes in `RemoteLevelService.cs`.
+You can also edit JSONs directly via the GitHub web UI — the same pipeline kicks in (Action regenerates manifest), just without the upstream gamejam1 sync step.
 
-## Manifest schema
+## Repository layout
+
+```
+/AVariantLevel/level_001.json  …  level_200.json   (control group — pre-baked + procedural)
+/BVariantLevel/level_001.json  …  level_200.json   (JSON-based variant)
+/CVariantLevel/level_001.json  …  level_200.json   (lean honeymoon + new monetization)
+/manifest.json                                     (single global manifest, schema v=3)
+/regenerate-manifest.sh                            (multi-variant manifest generator)
+```
+
+## Manifest schema (v=3)
 
 ```json
 {
-  "schemaVersion": 1,
-  "version": 1,
-  "updatedAt": "2026-05-14T00:00:00Z",
-  "totalLevels": 200,
+  "schemaVersion": 3,
+  "version": 100,
+  "updatedAt": "2026-05-14T20:42:13Z",
+  "repoSha": "ca8071a73ffa67f25de12fbc6b3060545725b139",
   "notes": "Free-form changelog",
-  "levels": {
-    "001": "5bdd5405",
-    "002": "8652a32a"
+  "variants": {
+    "AVariantLevel": {
+      "totalLevels": 200,
+      "levels": {
+        "001": "98d7cfe3",
+        "002": "be027674"
+      }
+    },
+    "BVariantLevel": { "totalLevels": 200, "levels": { } },
+    "CVariantLevel": { "totalLevels": 200, "levels": { } }
   }
 }
 ```
 
-- `version` — global counter; the Unity client compares this to its cached `lastSeenVersion`
-- `levels[NNN]` — per-file SHA-1 prefix (8 hex chars). The client uses this to detect which individual files changed when version bumps, so it only re-downloads what's different.
+- `version` — global counter; the Unity client uses this to know when ANY variant changed.
+- `repoSha` — the commit SHA the manifest was generated from; clients build cache-immutable level URLs as `cdn.jsdelivr.net/gh/USER/REPO@<repoSha>/<variant>/level_NNN.json`.
+- `variants[FOLDER].levels[NNN]` — per-file SHA-1 prefix (8 hex chars); the client diffs this against its cached hash to know which levels need re-download.
 
 ## Notes
 
-- This repo is the **runtime source of truth** for level data, not the build-time `Resources/CVariantLevel/` snapshot. The bundled snapshot is kept in the Unity build so the game works fully offline.
-- Don't add files outside `levels/` or `manifest.json` to root — the client doesn't know what to do with them.
+- This repo is the **runtime source of truth** for level data, not the build-time `Resources/<X>VariantLevel/` snapshot. The bundled snapshot is kept in the Unity build so the game works fully offline.
+- Only edit files inside `AVariantLevel/`, `BVariantLevel/`, `CVariantLevel/`. Don't add other folders or rename — the client and workflow assume this structure.
