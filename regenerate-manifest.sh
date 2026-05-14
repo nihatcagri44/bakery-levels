@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 # Regenerate manifest.json from current levels/*.json contents.
+# Sets repoSha to the current git HEAD — so the manifest immutably references
+# the commit it was generated from. The Unity client uses this SHA to fetch
+# level files from a cache-immutable jsDelivr URL.
+#
 # Usage:   ./regenerate-manifest.sh [new-version-number] [notes]
-# Example: ./regenerate-manifest.sh 2 "L016 difficulty tweak"
+# Example: ./regenerate-manifest.sh                       # auto-bump version
+#          ./regenerate-manifest.sh 5 "L016 difficulty tweak"
 set -euo pipefail
 
 cd "$(dirname "$0")"
@@ -9,8 +14,13 @@ cd "$(dirname "$0")"
 VERSION="${1:-}"
 NOTES="${2:-Regenerated $(date -u +%Y-%m-%dT%H:%M:%SZ)}"
 
+REPO_SHA=$(git rev-parse HEAD 2>/dev/null || echo "")
+if [ -z "$REPO_SHA" ]; then
+  echo "WARNING: not in a git repo — repoSha will be empty (clients will fall back to @main)" >&2
+fi
+
 if [ -z "$VERSION" ]; then
-  CUR=$(grep -m1 '"version"' manifest.json | grep -oE '[0-9]+' | head -1)
+  CUR=$(grep -m1 '"version"' manifest.json 2>/dev/null | grep -oE '[0-9]+' | head -1 || echo "0")
   VERSION=$((CUR + 1))
   echo "→ Auto-bumping version: $CUR → $VERSION"
 fi
@@ -19,9 +29,10 @@ UPDATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
 {
   echo "{"
-  echo "  \"schemaVersion\": 1,"
+  echo "  \"schemaVersion\": 2,"
   echo "  \"version\": $VERSION,"
   echo "  \"updatedAt\": \"$UPDATED_AT\","
+  echo "  \"repoSha\": \"$REPO_SHA\","
   TOTAL=$(ls levels/level_*.json 2>/dev/null | wc -l | tr -d ' ')
   echo "  \"totalLevels\": $TOTAL,"
   echo "  \"notes\": \"$NOTES\","
@@ -42,4 +53,4 @@ UPDATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
   echo "}"
 } > manifest.json
 
-echo "→ Wrote manifest.json (version=$VERSION, levels=$TOTAL)"
+echo "→ Wrote manifest.json (version=$VERSION, repoSha=${REPO_SHA:0:8}, levels=$TOTAL)"

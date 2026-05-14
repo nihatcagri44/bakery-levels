@@ -1,37 +1,79 @@
-name: Purge jsDelivr CDN
+name: Auto-manifest + jsDelivr Purge
 
 on:
   push:
     branches: [main]
 
 jobs:
-  purge:
+  manifest-and-purge:
     runs-on: ubuntu-latest
+    # Skip if the commit message has [skip ci] — prevents recursion when this
+    # job's own auto-manifest commit fires another push event.
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 2
 
-      - name: Purge changed files on jsDelivr
+      - name: Detect what changed
+        id: changes
+        run: |
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            CHANGED_LEVELS=$(git diff --name-only HEAD~1 HEAD | grep -E '^levels/.*\.json$' || true)
+            MANIFEST_TOUCHED=$(git diff --name-only HEAD~1 HEAD | grep -c '^manifest\.json$' || true)
+          else
+            CHANGED_LEVELS=$(git ls-files 'levels/*.json')
+            MANIFEST_TOUCHED=0
+          fi
+          {
+            echo 'changed_levels<<DELIM'
+            echo "$CHANGED_LEVELS"
+            echo 'DELIM'
+            echo "manifest_touched=$MANIFEST_TOUCHED"
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed level files:"
+          echo "$CHANGED_LEVELS"
+          echo "Manifest touched in this push: $MANIFEST_TOUCHED"
+
+      - name: Regenerate manifest (if levels changed and user didn't already)
+        id: regen
+        if: steps.changes.outputs.changed_levels != '' && steps.changes.outputs.manifest_touched == '0'
+        run: |
+          chmod +x regenerate-manifest.sh
+          ./regenerate-manifest.sh
+          if git diff --quiet manifest.json; then
+            echo "manifest content unchanged after regen — skipping commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.email "actions@github.com"
+            git config user.name "GitHub Actions (auto-manifest)"
+            git add manifest.json
+            git commit -m "auto: regenerate manifest [skip ci]"
+            git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Purge jsDelivr cache
         run: |
           REPO="${{ github.repository }}"
+          # The manifest is served from raw.githubusercontent.com (instant) — no need to purge it.
+          # Level files use SHA-pinned URLs (immutable) — no need to purge those either.
+          # We still purge @main for backward-compat clients (and as a safety net).
           BASE="https://purge.jsdelivr.net/gh/${REPO}@main"
 
-          echo "→ Purging manifest.json (always)"
-          curl -fsS "$BASE/manifest.json" -o /dev/null -w "  status=%{http_code} time=%{time_total}s\n" || echo "  manifest purge failed (non-fatal)"
+          echo "→ Purging manifest @main (safety net for legacy clients)"
+          curl -fsS "$BASE/manifest.json" -o /dev/null -w "  status=%{http_code}\n" || echo "  purge failed (non-fatal)"
 
-          if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            CHANGED=$(git diff --name-only HEAD~1 HEAD | grep -E '^levels/.*\.json$' || true)
-          else
-            CHANGED=$(git ls-files 'levels/*.json')
-          fi
-
+          CHANGED='${{ steps.changes.outputs.changed_levels }}'
           if [ -z "$CHANGED" ]; then
-            echo "→ No level files changed."
+            echo "→ No level files to purge."
             exit 0
           fi
-
           echo "$CHANGED" | while read f; do
-            echo "→ Purging $f"
-            curl -fsS "$BASE/$f" -o /dev/null -w "  status=%{http_code} time=%{time_total}s\n" || echo "  $f purge failed (non-fatal)"
+            [ -z "$f" ] && continue
+            echo "→ Purging $f @main"
+            curl -fsS "$BASE/$f" -o /dev/null -w "  status=%{http_code}\n" || echo "  $f purge failed (non-fatal)"
           done
