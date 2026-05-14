@@ -740,6 +740,9 @@
         "y": 1
       }
     ],
-    "designIntent": "easy | variant-c-v2-2026-05-12 | shape=letterG p0 1t 1M"
+    "designIntent": {
+      "note": "easy | variant-c-v2-2026-05-12 | shape=letterG p0 1t 1M",
+      "testNote": "live-update-test-2026-05-14"
+    }
   }
 }
