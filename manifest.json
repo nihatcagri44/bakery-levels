@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 100,
-  "updatedAt": "2026-05-14T20:45:39Z",
-  "repoSha": "c28ccc1ebe55cb951b6a573bbb1e784e1d75812a",
-  "notes": "Multi-variant schema v=3 — A+B+C added",
+  "version": 101,
+  "updatedAt": "2026-05-14T20:50:20Z",
+  "repoSha": "4232da561daa197fa6b8a3b66edd29549e836a04",
+  "notes": "Regenerated 2026-05-14T20:50:20Z",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 200,
