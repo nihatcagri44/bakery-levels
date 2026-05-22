@@ -15,7 +15,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-VARIANTS=(AVariantLevel BVariantLevel CVariantLevel)
+VARIANTS=(BVariantLevel CVariantLevel)
 
 VERSION="${1:-}"
 NOTES="${2:-Regenerated $(date -u +%Y-%m-%dT%H:%M:%SZ)}"
