@@ -193,6 +193,16 @@
           "Red",
           "Red",
           "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Red"
         ]
       },
@@ -354,6 +364,16 @@
           "Green",
           "Green",
           "Green",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
+          "Purple",
           "Purple",
           "Purple",
           "Purple",
@@ -577,6 +597,16 @@
           "Green",
           "Green",
           "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Green"
         ]
       },
@@ -769,6 +799,16 @@
           "Blue",
           "Blue",
           "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Blue"
         ]
       },
@@ -784,16 +824,6 @@
           "Green",
           "Green",
           "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
           "Purple",
           "Purple",
           "Purple",
@@ -804,16 +834,38 @@
           "Purple",
           "Purple",
           "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
-          "Purple",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Red",
           "Red",
           "Red",
@@ -896,16 +948,16 @@
           "Blue",
           "Blue",
           "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Yellow",
           "Yellow",
           "Yellow",
@@ -964,32 +1016,33 @@
     "trucks": [
       {
         "truckId": 0,
-        "color": "Red",
-        "capacity": 52
-      },
-      {
-        "truckId": 1,
         "color": "Blue",
         "capacity": 52
       },
       {
-        "truckId": 2,
-        "color": "Green",
-        "capacity": 52
+        "truckId": 1,
+        "color": "Red",
+        "capacity": 52,
+        "isMystery": true
       },
       {
-        "truckId": 3,
+        "truckId": 2,
         "color": "Yellow",
         "capacity": 52
       },
       {
-        "truckId": 4,
+        "truckId": 3,
         "color": "Purple",
         "capacity": 52
       },
       {
-        "truckId": 5,
+        "truckId": 4,
         "color": "Green",
+        "capacity": 52
+      },
+      {
+        "truckId": 5,
+        "color": "Red",
         "capacity": 52
       },
       {
@@ -999,17 +1052,17 @@
       },
       {
         "truckId": 7,
-        "color": "Purple",
+        "color": "Red",
         "capacity": 52
       },
       {
         "truckId": 8,
-        "color": "Blue",
+        "color": "Yellow",
         "capacity": 52
       },
       {
         "truckId": 9,
-        "color": "Blue",
+        "color": "Yellow",
         "capacity": 52
       },
       {
@@ -1019,37 +1072,44 @@
       },
       {
         "truckId": 11,
-        "color": "Yellow",
+        "color": "Blue",
         "capacity": 52
       },
       {
         "truckId": 12,
-        "color": "Red",
-        "capacity": 52
-      },
-      {
-        "truckId": 13,
-        "color": "Red",
-        "capacity": 52
-      },
-      {
-        "truckId": 14,
         "color": "Green",
         "capacity": 52
       },
       {
+        "truckId": 13,
+        "color": "Blue",
+        "capacity": 52
+      },
+      {
+        "truckId": 14,
+        "color": "Purple",
+        "capacity": 52
+      },
+      {
         "truckId": 15,
-        "color": "Yellow",
+        "color": "Green",
         "capacity": 52
       },
       {
         "truckId": 16,
         "color": "Yellow",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": true
       },
       {
         "truckId": 17,
         "color": "Blue",
+        "capacity": 52,
+        "isMystery": true
+      },
+      {
+        "truckId": 18,
+        "color": "Red",
         "capacity": 52
       }
     ],
@@ -1085,63 +1145,63 @@
         "cells": [
           0,
           1,
+          -1,
           2,
-          3,
-          4
+          3
         ]
       },
       {
         "cells": [
-          5,
+          4,
           -1,
+          -1,
+          -1,
+          5
+        ]
+      },
+      {
+        "cells": [
           6,
           -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
           7,
           -1,
-          8,
-          -1,
-          -1
+          8
         ]
       },
       {
         "cells": [
+          -1,
+          -1,
           9,
           -1,
-          10,
-          -1,
           -1
         ]
       },
       {
         "cells": [
+          10,
+          -1,
           11,
           -1,
-          12,
-          -1,
-          -1
+          12
         ]
       },
       {
         "cells": [
           13,
           -1,
-          14,
-          15,
+          -1,
+          -1,
           -1
         ]
       },
       {
         "cells": [
-          -1,
+          14,
           16,
-          -1,
-          -1,
-          17
+          15,
+          17,
+          18
         ]
       },
       {
@@ -1296,42 +1356,58 @@
         "y": 4
       },
       {
-        "x": 4,
-        "y": 3
-      },
-      {
-        "x": 5,
-        "y": 3
-      },
-      {
         "x": 6,
         "y": 3
-      },
-      {
-        "x": 7,
-        "y": 3
-      },
-      {
-        "x": 4,
-        "y": 4
-      },
-      {
-        "x": 5,
-        "y": 4
       },
       {
         "x": 6,
         "y": 4
       },
       {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 1
+      },
+      {
         "x": 7,
-        "y": 4
+        "y": 1
+      },
+      {
+        "x": 7,
+        "y": 3
       },
       {
         "x": 8,
-        "y": 4
+        "y": 1
+      },
+      {
+        "x": 8,
+        "y": 3
       }
     ],
-    "designIntent": "easy | phase3-tester-fix-2026-05-12 | shape=letterR"
+    "designIntent": "easy | variant-c-v2-2026-05-12 | shape=cornerPlus p1 0t 3M | tunnel-stripped-v3-fix"
   }
 }
