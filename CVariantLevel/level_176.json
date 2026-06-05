@@ -706,17 +706,19 @@
         "truckId": 0,
         "color": "Yellow",
         "capacity": 52,
-        "isMystery": true
+        "isMystery": false
       },
       {
         "truckId": 1,
         "color": "Green",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       },
       {
         "truckId": 2,
         "color": "Purple",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       },
       {
         "truckId": 3,
@@ -1071,6 +1073,6 @@
         "y": 1
       }
     ],
-    "designIntent": "normal | variant-c-v2-2026-05-12 | shape=anchor p0 1t 3M"
+    "designIntent": "variant-c | L176-fix-2026-06-05 mirror of B-L176 | NO mystery in tunnel (truck0 + tunnel trucks un-mystery); remaining mystery on parking trucks 9,11 only"
   }
 }
