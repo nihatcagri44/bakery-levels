@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 105,
-  "updatedAt": "2026-06-01T08:22:48Z",
-  "repoSha": "1d767c03a8958015cde56d67df4f44c4bf592fbc",
-  "notes": "Regenerated 2026-06-01T08:22:48Z",
+  "version": 106,
+  "updatedAt": "2026-06-05T11:19:59Z",
+  "repoSha": "ece40098d733482fda8b683f170784507660ced8",
+  "notes": "B+C L176 unsolvable fix (un-mystery truck0/tunnel)",
   "variants": {
     "BVariantLevel": {
       "totalLevels": 200,
@@ -183,7 +183,7 @@
         "173": "1651e652",
         "174": "de1ad1f1",
         "175": "1fc3daee",
-        "176": "b3969007",
+        "176": "2fc47ae3",
         "177": "673dd8dd",
         "178": "16ab717a",
         "179": "bcc8187b",
@@ -388,7 +388,7 @@
         "173": "1651e652",
         "174": "de1ad1f1",
         "175": "1fc3daee",
-        "176": "b3969007",
+        "176": "0c3fbe64",
         "177": "673dd8dd",
         "178": "16ab717a",
         "179": "bcc8187b",
