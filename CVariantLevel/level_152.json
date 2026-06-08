@@ -1191,23 +1191,26 @@
       {
         "truckId": 14,
         "color": "Green",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       },
       {
         "truckId": 15,
         "color": "Red",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       },
       {
         "truckId": 16,
         "color": "Green",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       },
       {
         "truckId": 17,
         "color": "Yellow",
         "capacity": 52,
-        "isMystery": true
+        "isMystery": false
       },
       {
         "truckId": 18,
@@ -1222,7 +1225,8 @@
       {
         "truckId": 20,
         "color": "Red",
-        "capacity": 52
+        "capacity": 52,
+        "isMystery": false
       }
     ],
     "parkingColumns": [
@@ -1519,6 +1523,6 @@
         "y": 1
       }
     ],
-    "designIntent": "normal | variant-c-v2-2026-05-12 | shape=denseScatter p1 1t 1M"
+    "designIntent": "normal | variant-c-v2-2026-05-12 | shape=denseScatter p1 1t 1M | L152-fix-2026-05-31: un-mystery lonely tunnel-col box (truck17)"
   }
 }
