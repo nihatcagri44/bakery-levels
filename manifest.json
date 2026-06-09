@@ -1,18 +1,18 @@
 {
   "schemaVersion": 3,
-  "version": 107,
-  "updatedAt": "2026-06-08T17:43:18Z",
-  "repoSha": "94b5b699f687e2a33faa6ad600c7c8668727ef24",
-  "notes": "B+C L131 & L152 lonely tunnel-mystery soft-lock fix",
+  "version": 108,
+  "updatedAt": "2026-06-09T18:20:25Z",
+  "repoSha": "c476cece433112ea73c586faeda9747e79c81c67",
+  "notes": "B L2-L5 redesign (no-fail intensity teaching arc)",
   "variants": {
     "BVariantLevel": {
       "totalLevels": 200,
       "levels": {
         "001": "8531d7c3",
-        "002": "bd5ffa31",
-        "003": "53cc3d7e",
-        "004": "68a25df9",
-        "005": "da79e8d4",
+        "002": "5412347e",
+        "003": "5a456059",
+        "004": "c6ca3e65",
+        "005": "d500bd93",
         "006": "0b6fbcb9",
         "007": "46239c4a",
         "008": "863844cb",
