@@ -1626,6 +1626,24 @@
         "y": 3
       }
     ],
-    "designIntent": "normal | variant-c-v2-2026-05-12 | shape=hollowO p0 2t 3M"
+    "ropes": [
+      {
+        "a": 0,
+        "b": 7
+      },
+      {
+        "a": 1,
+        "b": 2
+      },
+      {
+        "a": 3,
+        "b": 6
+      },
+      {
+        "a": 16,
+        "b": 18
+      }
+    ],
+    "designIntent": "normal | variant-c-v2-2026-05-12 | shape=hollowO p0 2t 3M | ropes:0-7,1-2,3-6,16-18"
   }
 }

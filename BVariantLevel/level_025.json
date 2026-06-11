@@ -2559,6 +2559,16 @@
         "y": 4
       }
     ],
-    "designIntent": "normal | tester-fix-2026-05-12 | chunk-52 mixed cols (was single-color); retag from hard per tester verdict"
+    "designIntent": "normal | tester-fix-2026-05-12 | chunk-52 mixed cols (was single-color); retag from hard per tester verdict | +2 ROPES (new rope system): 11G<->17B and 25Y<->33P (adjacent front-row pairs) - each pair dispatches & departs together.",
+    "ropes": [
+      {
+        "a": 11,
+        "b": 17
+      },
+      {
+        "a": 25,
+        "b": 33
+      }
+    ]
   }
 }

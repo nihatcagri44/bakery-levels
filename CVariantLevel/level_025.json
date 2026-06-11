@@ -1279,6 +1279,16 @@
         "y": 3
       }
     ],
-    "designIntent": "hard | variant-c-v2-2026-05-12 | shape=bigFrame p4 1t 2M"
+    "designIntent": "hard | variant-c-v2-2026-05-12 | shape=bigFrame p4 1t 2M | +2 ROPES (rope system): 0P<->5Y and 12G<->14B (adjacent front-row pairs) - each pair dispatches & departs together.",
+    "ropes": [
+      {
+        "a": 0,
+        "b": 5
+      },
+      {
+        "a": 12,
+        "b": 14
+      }
+    ]
   }
 }
