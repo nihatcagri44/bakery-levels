@@ -1748,13 +1748,7 @@
         "columnIndex": 3,
         "truckIds": [
           3,
-          2
-        ],
-        "rowIndex": 4
-      },
-      {
-        "columnIndex": 3,
-        "truckIds": [
+          2,
           1,
           0,
           7,
@@ -1913,6 +1907,6 @@
         "y": 2
       }
     ],
-    "designIntent": "easy | variant-c-v2-2026-05-12 | shape=triRows p2 2t 0M"
+    "designIntent": "easy | variant-c-v2-2026-05-12 | shape=triRows p2 1t 0M | FIX2026-06-13: merged 2 overlapping col3 tunnels -> 1 (6 trucks); was unwinnable (Blue/Red orphaned)"
   }
 }
