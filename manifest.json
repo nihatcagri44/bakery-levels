@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 111,
-  "updatedAt": "2026-06-13T16:46:24Z",
-  "repoSha": "9db83375cc17d3b74f7fe7a7376242c4992e6fc2",
-  "notes": "Regenerated 2026-06-13T16:46:24Z",
+  "version": 112,
+  "updatedAt": "2026-06-18T10:57:46Z",
+  "repoSha": "8ad3d9900e9a46a048b67a173dbfaaba8e2e2f77",
+  "notes": "Regenerated 2026-06-18T10:57:46Z",
   "variants": {
     "BVariantLevel": {
       "totalLevels": 202,
@@ -11,7 +11,7 @@
         "001": "8531d7c3",
         "002": "5412347e",
         "003": "5a456059",
-        "004": "c6ca3e65",
+        "004": "216b349c",
         "005": "d500bd93",
         "006": "46bcabfb",
         "007": "ad7521d9",
@@ -20,7 +20,7 @@
         "010": "63a38b18",
         "011": "7682069e",
         "012": "d484e359",
-        "013": "6dd3e6dc",
+        "013": "6ead7c0c",
         "014": "249f464d",
         "015": "fdac6e45",
         "016": "0e41bc0d",
