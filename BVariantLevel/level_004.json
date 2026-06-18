@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "solvabilityVerified": true,
+  "solvabilityVerified": false,
   "level": {
     "levelNumber": 4,
     "activeDockSlots": 5,
-    "colorCount": 3,
+    "colorCount": 4,
     "factoryColumns": [
       {
         "cells": [
@@ -43,6 +43,131 @@
           "Red",
           "Red",
           "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "cells": [
           "Green",
           "Green",
           "Green",
@@ -78,6 +203,253 @@
           "Green",
           "Green",
           "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green"
+        ]
+      },
+      {
+        "cells": [
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Blue",
           "Blue",
           "Blue",
@@ -116,218 +488,162 @@
       },
       {
         "cells": [
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue"
-        ]
-      },
-      {
-        "cells": [
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue"
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow",
+          "Yellow"
         ]
       }
     ],
@@ -344,7 +660,7 @@
       },
       {
         "truckId": 2,
-        "color": "Green",
+        "color": "Red",
         "capacity": 52
       },
       {
@@ -354,12 +670,42 @@
       },
       {
         "truckId": 4,
-        "color": "Blue",
+        "color": "Green",
         "capacity": 52
       },
       {
         "truckId": 5,
+        "color": "Green",
+        "capacity": 52
+      },
+      {
+        "truckId": 6,
         "color": "Blue",
+        "capacity": 52
+      },
+      {
+        "truckId": 7,
+        "color": "Blue",
+        "capacity": 52
+      },
+      {
+        "truckId": 8,
+        "color": "Blue",
+        "capacity": 52
+      },
+      {
+        "truckId": 9,
+        "color": "Yellow",
+        "capacity": 52
+      },
+      {
+        "truckId": 10,
+        "color": "Yellow",
+        "capacity": 52
+      },
+      {
+        "truckId": 11,
+        "color": "Yellow",
         "capacity": 52
       }
     ],
@@ -377,31 +723,40 @@
         "cells": []
       },
       {
-        "cells": []
-      },
-      {
         "cells": [
           0,
-          2
-        ]
-      },
-      {
-        "cells": [
-          4,
-          5
+          7
         ]
       },
       {
         "cells": [
           3,
-          1
+          10
         ]
       },
       {
-        "cells": []
+        "cells": [
+          6,
+          2
+        ]
       },
       {
-        "cells": []
+        "cells": [
+          9,
+          5
+        ]
+      },
+      {
+        "cells": [
+          1,
+          8
+        ]
+      },
+      {
+        "cells": [
+          4,
+          11
+        ]
       },
       {
         "cells": []
@@ -414,162 +769,183 @@
       }
     ],
     "truckQueue": [],
+    "tunnels": [],
     "sidewalks": [
       {
         "x": 0,
         "y": 0
       },
       {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 10,
+        "y": 0
+      },
+      {
+        "x": 11,
+        "y": 0
+      },
+      {
+        "x": 12,
+        "y": 0
+      },
+      {
         "x": 0,
         "y": 1
       },
       {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 10,
+        "y": 1
+      },
+      {
+        "x": 11,
+        "y": 1
+      },
+      {
+        "x": 12,
+        "y": 1
+      },
+      {
         "x": 0,
         "y": 2
       },
       {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 4
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 1
-      },
-      {
         "x": 1,
         "y": 2
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 4
-      },
-      {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": 2,
-        "y": 1
       },
       {
         "x": 2,
         "y": 2
       },
       {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 4
-      },
-      {
-        "x": 10,
-        "y": 0
-      },
-      {
-        "x": 10,
-        "y": 1
-      },
-      {
-        "x": 10,
-        "y": 2
-      },
-      {
-        "x": 10,
-        "y": 3
-      },
-      {
-        "x": 10,
-        "y": 4
-      },
-      {
-        "x": 11,
-        "y": 0
-      },
-      {
-        "x": 11,
-        "y": 1
-      },
-      {
-        "x": 11,
-        "y": 2
-      },
-      {
-        "x": 11,
-        "y": 3
-      },
-      {
-        "x": 11,
-        "y": 4
-      },
-      {
-        "x": 12,
-        "y": 0
-      },
-      {
-        "x": 12,
-        "y": 1
-      },
-      {
-        "x": 12,
-        "y": 2
-      },
-      {
-        "x": 12,
-        "y": 3
-      },
-      {
-        "x": 12,
-        "y": 4
-      },
-      {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
         "x": 3,
         "y": 2
-      },
-      {
-        "x": 3,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 4
-      },
-      {
-        "x": 4,
-        "y": 0
-      },
-      {
-        "x": 4,
-        "y": 1
       },
       {
         "x": 4,
         "y": 2
       },
       {
+        "x": 5,
+        "y": 2
+      },
+      {
+        "x": 6,
+        "y": 2
+      },
+      {
+        "x": 7,
+        "y": 2
+      },
+      {
+        "x": 8,
+        "y": 2
+      },
+      {
+        "x": 9,
+        "y": 2
+      },
+      {
+        "x": 10,
+        "y": 2
+      },
+      {
+        "x": 11,
+        "y": 2
+      },
+      {
+        "x": 12,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
         "x": 4,
         "y": 3
+      },
+      {
+        "x": 5,
+        "y": 3
+      },
+      {
+        "x": 6,
+        "y": 3
+      },
+      {
+        "x": 7,
+        "y": 3
+      },
+      {
+        "x": 8,
+        "y": 3
+      },
+      {
+        "x": 9,
+        "y": 3
+      },
+      {
+        "x": 10,
+        "y": 3
+      },
+      {
+        "x": 11,
+        "y": 3
+      },
+      {
+        "x": 12,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 3,
+        "y": 4
       },
       {
         "x": 4,
@@ -577,23 +953,7 @@
       },
       {
         "x": 5,
-        "y": 2
-      },
-      {
-        "x": 5,
-        "y": 3
-      },
-      {
-        "x": 5,
         "y": 4
-      },
-      {
-        "x": 6,
-        "y": 2
-      },
-      {
-        "x": 6,
-        "y": 3
       },
       {
         "x": 6,
@@ -601,31 +961,7 @@
       },
       {
         "x": 7,
-        "y": 2
-      },
-      {
-        "x": 7,
-        "y": 3
-      },
-      {
-        "x": 7,
         "y": 4
-      },
-      {
-        "x": 8,
-        "y": 0
-      },
-      {
-        "x": 8,
-        "y": 1
-      },
-      {
-        "x": 8,
-        "y": 2
-      },
-      {
-        "x": 8,
-        "y": 3
       },
       {
         "x": 8,
@@ -633,26 +969,21 @@
       },
       {
         "x": 9,
-        "y": 0
+        "y": 4
       },
       {
-        "x": 9,
-        "y": 1
+        "x": 10,
+        "y": 4
       },
       {
-        "x": 9,
-        "y": 2
+        "x": 11,
+        "y": 4
       },
       {
-        "x": 9,
-        "y": 3
-      },
-      {
-        "x": 9,
+        "x": 12,
         "y": 4
       }
     ],
-    "designIntent": "L4-cascade-hide-2026-06-09 | escalates L3: every column layered Red->Green->Blue so conveyor opens ALL RED (green AND blue hidden). Drain red -> green waves in; drain green -> blue waves in. Two-stage tension->relief cascade. No-fail.",
-    "tunnels": []
+    "designIntent": "easy | 4-color 12-truck widen (6x2) 2026-06-18 | L4 retest variant"
   }
 }
