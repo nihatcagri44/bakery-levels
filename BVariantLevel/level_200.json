@@ -1489,7 +1489,7 @@
           2,
           10,
           14,
-          -1,
+          9,
           -1
         ]
       },
@@ -1507,7 +1507,7 @@
           0,
           1,
           7,
-          -1,
+          17,
           -1
         ]
       },
@@ -1516,7 +1516,7 @@
           11,
           18,
           22,
-          -1,
+          20,
           -1
         ]
       },
@@ -1534,7 +1534,7 @@
           4,
           19,
           23,
-          -1,
+          21,
           -1
         ]
       },
@@ -1543,7 +1543,7 @@
           5,
           13,
           16,
-          -1,
+          24,
           -1
         ]
       },
@@ -1770,6 +1770,6 @@
         "b": 3
       }
     ],
-    "designIntent": "test | rope-hard | 25 trucks 5-each | rope1 intra-col col5 (R+B), rope2 adj-col 8-9 (P+G), rope3 parking-tunnel (T2 col3 <-> T3 tunnel col4) | tunnel emits T6 G then T3 Y (gates rope3) | 4 mysteries (T14 Y, T15 Y, T16 Y, T19 P) | DUP+MISS factory: heads R B B G Y, Purple buried at depth 3+"
+    "designIntent": "test | rope-hard | 25 trucks 5-each | rope1 intra-col col5 (R+B), rope2 adj-col 8-9 (P+G), rope3 parking-tunnel (T2 col3 <-> T3 tunnel col4) | tunnel emits T6 G then T3 Y (gates rope3) | 4 mysteries (T14 Y, T15 Y, T16 Y, T19 P) | DUP+MISS factory: heads R B B G Y, Purple buried at depth 3+ | FIX2026-06-18: placed 5 dropped trucks (9R,17Y,20P,21P,24G) - was unsolvable (orphaned in C-swap)"
   }
 }
