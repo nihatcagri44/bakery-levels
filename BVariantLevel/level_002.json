@@ -3,9 +3,79 @@
   "solvabilityVerified": true,
   "level": {
     "levelNumber": 2,
-    "activeDockSlots": 5,
+    "activeDockSlots": 3,
     "colorCount": 2,
     "factoryColumns": [
+      {
+        "cells": [
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red"
+        ]
+      },
       {
         "cells": [
           "Red",
@@ -14,6 +84,18 @@
           "Red",
           "Red",
           "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -34,24 +116,32 @@
           "Red",
           "Red",
           "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -76,36 +166,14 @@
           "Red",
           "Red",
           "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -128,6 +196,16 @@
           "Green",
           "Green",
           "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Green",
           "Green",
           "Green",
@@ -138,99 +216,21 @@
           "Green",
           "Green",
           "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green"
-        ]
-      },
-      {
-        "cells": [
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green"
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red"
         ]
       }
     ],
     "trucks": [
       {
         "truckId": 0,
-        "color": "Red",
+        "color": "Green",
         "capacity": 52
       },
       {
@@ -245,126 +245,40 @@
       },
       {
         "truckId": 3,
-        "color": "Green",
+        "color": "Red",
         "capacity": 52
       }
     ],
     "parkingColumns": [
       {
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
         "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0
         ]
       },
       {
         "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          2,
-          0,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          3,
           1,
-          -1,
-          -1,
-          -1
+          2
         ]
       },
       {
         "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          3
         ]
       }
     ],
@@ -431,6 +345,66 @@
         "y": 4
       },
       {
+        "x": 10,
+        "y": 0
+      },
+      {
+        "x": 10,
+        "y": 1
+      },
+      {
+        "x": 10,
+        "y": 2
+      },
+      {
+        "x": 10,
+        "y": 3
+      },
+      {
+        "x": 10,
+        "y": 4
+      },
+      {
+        "x": 11,
+        "y": 0
+      },
+      {
+        "x": 11,
+        "y": 1
+      },
+      {
+        "x": 11,
+        "y": 2
+      },
+      {
+        "x": 11,
+        "y": 3
+      },
+      {
+        "x": 11,
+        "y": 4
+      },
+      {
+        "x": 12,
+        "y": 0
+      },
+      {
+        "x": 12,
+        "y": 1
+      },
+      {
+        "x": 12,
+        "y": 2
+      },
+      {
+        "x": 12,
+        "y": 3
+      },
+      {
+        "x": 12,
+        "y": 4
+      },
+      {
         "x": 3,
         "y": 0
       },
@@ -472,10 +446,6 @@
       },
       {
         "x": 5,
-        "y": 0
-      },
-      {
-        "x": 5,
         "y": 1
       },
       {
@@ -501,6 +471,10 @@
       {
         "x": 6,
         "y": 4
+      },
+      {
+        "x": 7,
+        "y": 1
       },
       {
         "x": 7,
@@ -552,70 +526,8 @@
       },
       {
         "x": 9,
-        "y": 4
-      },
-      {
-        "x": 10,
-        "y": 0
-      },
-      {
-        "x": 10,
-        "y": 1
-      },
-      {
-        "x": 10,
-        "y": 2
-      },
-      {
-        "x": 10,
-        "y": 3
-      },
-      {
-        "x": 10,
-        "y": 4
-      },
-      {
-        "x": 11,
-        "y": 0
-      },
-      {
-        "x": 11,
-        "y": 1
-      },
-      {
-        "x": 11,
-        "y": 2
-      },
-      {
-        "x": 11,
-        "y": 3
-      },
-      {
-        "x": 11,
-        "y": 4
-      },
-      {
-        "x": 12,
-        "y": 0
-      },
-      {
-        "x": 12,
-        "y": 1
-      },
-      {
-        "x": 12,
-        "y": 2
-      },
-      {
-        "x": 12,
-        "y": 3
-      },
-      {
-        "x": 12,
         "y": 4
       }
-    ],
-    "designIntent": "L2-gated-order-2026-06-09 | adjacent 2x2 block cols6,7 (NO sidewalk between trucks); greens front, reds behind; walled flanks(5,8)+below; green-before-red forced, no-fail. CoM x=6.5 (best for even block on odd center col6).",
-    "tunnels": []
+    ]
   }
 }

@@ -3,7 +3,7 @@
   "solvabilityVerified": true,
   "level": {
     "levelNumber": 8,
-    "activeDockSlots": 4,
+    "activeDockSlots": 3,
     "colorCount": 3,
     "factoryColumns": [
       {
@@ -18,52 +18,48 @@
           "Red",
           "Red",
           "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Red",
           "Red",
           "Red",
           "Red",
           "Red",
           "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Red",
           "Red",
           "Red",
@@ -72,6 +68,12 @@
           "Red",
           "Red",
           "Red",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Red",
           "Red",
           "Red",
@@ -83,38 +85,23 @@
           "Red",
           "Red",
           "Red",
-          "Red"
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue"
         ]
       },
       {
         "cells": [
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
           "Green",
           "Green",
           "Green",
@@ -164,11 +151,97 @@
           "Red",
           "Red",
           "Red",
-          "Red"
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green"
         ]
       },
       {
         "cells": [
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -182,6 +255,25 @@
           "Red",
           "Red",
           "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
+          "Blue",
           "Green",
           "Green",
           "Green",
@@ -199,70 +291,21 @@
           "Green",
           "Green",
           "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red"
+          "Green"
         ]
       },
       {
         "cells": [
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Blue",
           "Blue",
           "Blue",
@@ -287,30 +330,16 @@
           "Blue",
           "Blue",
           "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -326,11 +355,6 @@
           "Red",
           "Red",
           "Red",
-          "Red"
-        ]
-      },
-      {
-        "cells": [
           "Red",
           "Red",
           "Red",
@@ -344,54 +368,6 @@
           "Red",
           "Red",
           "Red",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
           "Red",
           "Red",
           "Red",
@@ -415,166 +391,78 @@
       {
         "truckId": 0,
         "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "capacity": 52
       },
       {
         "truckId": 1,
         "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "capacity": 52
       },
       {
         "truckId": 2,
         "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "capacity": 52
       },
       {
         "truckId": 3,
-        "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "color": "Green",
+        "capacity": 52
       },
       {
         "truckId": 4,
-        "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "color": "Blue",
+        "capacity": 52
       },
       {
         "truckId": 5,
-        "color": "Red",
-        "capacity": 32,
-        "isMystery": false
+        "color": "Green",
+        "capacity": 52
       },
       {
         "truckId": 6,
-        "color": "Green",
-        "capacity": 32,
-        "isMystery": false
-      },
-      {
-        "truckId": 7,
-        "color": "Green",
-        "capacity": 32,
-        "isMystery": false
-      },
-      {
-        "truckId": 8,
-        "color": "Green",
-        "capacity": 32,
-        "isMystery": false
-      },
-      {
-        "truckId": 9,
         "color": "Blue",
-        "capacity": 32,
-        "isMystery": false
-      },
-      {
-        "truckId": 10,
-        "color": "Blue",
-        "capacity": 32,
-        "isMystery": false
-      },
-      {
-        "truckId": 11,
-        "color": "Blue",
-        "capacity": 32,
-        "isMystery": false
+        "capacity": 52
       }
     ],
     "parkingColumns": [
       {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
+        "cells": []
       },
       {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
+        "cells": []
       },
       {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
+        "cells": []
       },
       {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
+        "cells": []
+      },
+      {
+        "cells": []
       },
       {
         "cells": [
           0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
           1,
-          -1,
-          -1
+          2
         ]
       },
       {
         "cells": [
-          2,
           3,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          4,
-          -1,
-          -1
+          4
         ]
       },
       {
         "cells": [
           5,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1
-        ]
-      },
-      {
-        "cells": [
-          -1,
-          -1,
-          -1
+          6
         ]
       }
     ],
@@ -593,6 +481,14 @@
         "y": 2
       },
       {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
         "x": 1,
         "y": 0
       },
@@ -603,6 +499,14 @@
       {
         "x": 1,
         "y": 2
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 4
       },
       {
         "x": 2,
@@ -617,6 +521,94 @@
         "y": 2
       },
       {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 10,
+        "y": 0
+      },
+      {
+        "x": 10,
+        "y": 1
+      },
+      {
+        "x": 10,
+        "y": 2
+      },
+      {
+        "x": 10,
+        "y": 3
+      },
+      {
+        "x": 10,
+        "y": 4
+      },
+      {
+        "x": 11,
+        "y": 0
+      },
+      {
+        "x": 11,
+        "y": 1
+      },
+      {
+        "x": 11,
+        "y": 2
+      },
+      {
+        "x": 11,
+        "y": 3
+      },
+      {
+        "x": 11,
+        "y": 4
+      },
+      {
+        "x": 12,
+        "y": 0
+      },
+      {
+        "x": 12,
+        "y": 1
+      },
+      {
+        "x": 12,
+        "y": 2
+      },
+      {
+        "x": 12,
+        "y": 3
+      },
+      {
+        "x": 12,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 3
+      },
+      {
+        "x": 5,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 3
+      },
+      {
+        "x": 6,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 2
+      },
+      {
         "x": 3,
         "y": 0
       },
@@ -627,6 +619,18 @@
       {
         "x": 3,
         "y": 2
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 0
       },
       {
         "x": 4,
@@ -635,94 +639,66 @@
       {
         "x": 4,
         "y": 2
+      },
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 5,
+        "y": 0
       },
       {
         "x": 5,
         "y": 1
       },
       {
+        "x": 5,
+        "y": 4
+      },
+      {
+        "x": 6,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 3
+      },
+      {
+        "x": 6,
+        "y": 4
+      },
+      {
         "x": 7,
-        "y": 1
+        "y": 3
+      },
+      {
+        "x": 7,
+        "y": 4
       },
       {
         "x": 8,
-        "y": 1
+        "y": 2
       },
       {
         "x": 8,
-        "y": 2
+        "y": 3
       },
       {
-        "x": 9,
-        "y": 0
-      },
-      {
-        "x": 9,
-        "y": 1
+        "x": 8,
+        "y": 4
       },
       {
         "x": 9,
         "y": 2
       },
       {
-        "x": 10,
-        "y": 0
+        "x": 9,
+        "y": 3
       },
       {
-        "x": 10,
-        "y": 1
-      },
-      {
-        "x": 10,
-        "y": 2
-      },
-      {
-        "x": 11,
-        "y": 0
-      },
-      {
-        "x": 11,
-        "y": 1
-      },
-      {
-        "x": 11,
-        "y": 2
-      },
-      {
-        "x": 12,
-        "y": 0
-      },
-      {
-        "x": 12,
-        "y": 1
-      },
-      {
-        "x": 12,
-        "y": 2
-      }
-    ],
-    "designIntent": "L8-MULTI-TUNNEL-FUNNEL-2026-06-09 v4 | compact 3-tall. row1: 5 reds cols4-8. row2: lone red col6 framed by sidewalk both sides. row3: 3 tunnels emerge cols5,6,7. col5/col7 greens are sidewalk-capped -> all tunnel trucks FUNNEL through col6 to dock. 5 gate-first belts. Levers=Gate+Unknown(tunnel x3)+funnel. dock3,12t,3c.",
-    "tunnels": [
-      {
-        "columnIndex": 5,
-        "truckIds": [
-          6,
-          9
-        ]
-      },
-      {
-        "columnIndex": 6,
-        "truckIds": [
-          7,
-          10
-        ]
-      },
-      {
-        "columnIndex": 7,
-        "truckIds": [
-          8,
-          11
-        ]
+        "x": 9,
+        "y": 4
       }
     ]
   }

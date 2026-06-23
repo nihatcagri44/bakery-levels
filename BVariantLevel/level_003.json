@@ -3,8 +3,8 @@
   "solvabilityVerified": true,
   "level": {
     "levelNumber": 3,
-    "activeDockSlots": 5,
-    "colorCount": 3,
+    "activeDockSlots": 3,
+    "colorCount": 2,
     "factoryColumns": [
       {
         "cells": [
@@ -24,6 +24,24 @@
           "Red",
           "Red",
           "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -40,6 +58,42 @@
           "Red",
           "Red",
           "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "cells": [
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
           "Red",
           "Red",
           "Red",
@@ -72,6 +126,20 @@
           "Green",
           "Green",
           "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Green",
           "Green",
           "Green",
@@ -80,6 +148,50 @@
           "Green",
           "Green",
           "Green",
+          "Green",
+          "Green"
+        ]
+      },
+      {
+        "cells": [
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Green",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
+          "Red",
           "Green",
           "Green",
           "Green",
@@ -112,229 +224,13 @@
           "Green",
           "Green",
           "Green"
-        ]
-      },
-      {
-        "cells": [
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Red",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green",
-          "Green"
-        ]
-      },
-      {
-        "cells": [
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue",
-          "Blue"
         ]
       }
     ],
     "trucks": [
       {
         "truckId": 0,
-        "color": "Red",
+        "color": "Green",
         "capacity": 52
       },
       {
@@ -349,24 +245,11 @@
       },
       {
         "truckId": 3,
-        "color": "Green",
-        "capacity": 52
-      },
-      {
-        "truckId": 4,
-        "color": "Blue",
-        "capacity": 52
-      },
-      {
-        "truckId": 5,
-        "color": "Blue",
+        "color": "Red",
         "capacity": 52
       }
     ],
     "parkingColumns": [
-      {
-        "cells": []
-      },
       {
         "cells": []
       },
@@ -385,32 +268,21 @@
         ]
       },
       {
+        "cells": []
+      },
+      {
         "cells": [
           1,
           2
         ]
       },
       {
+        "cells": []
+      },
+      {
         "cells": [
-          3,
-          4,
-          5
+          3
         ]
-      },
-      {
-        "cells": []
-      },
-      {
-        "cells": []
-      },
-      {
-        "cells": []
-      },
-      {
-        "cells": []
-      },
-      {
-        "cells": []
       }
     ],
     "truckQueue": [],
@@ -557,10 +429,6 @@
       },
       {
         "x": 4,
-        "y": 0
-      },
-      {
-        "x": 4,
         "y": 1
       },
       {
@@ -574,6 +442,10 @@
       {
         "x": 4,
         "y": 4
+      },
+      {
+        "x": 5,
+        "y": 0
       },
       {
         "x": 5,
@@ -605,15 +477,23 @@
       },
       {
         "x": 7,
+        "y": 0
+      },
+      {
+        "x": 7,
+        "y": 1
+      },
+      {
+        "x": 7,
+        "y": 2
+      },
+      {
+        "x": 7,
         "y": 3
       },
       {
         "x": 7,
         "y": 4
-      },
-      {
-        "x": 8,
-        "y": 0
       },
       {
         "x": 8,
@@ -651,7 +531,6 @@
         "x": 9,
         "y": 4
       }
-    ],
-    "designIntent": "L3-hidden-green-twist-2026-06-09 | conveyor fronts Red,Red,Blue (NO green visible at start) -> green buried behind red in col0,col1; draining the reds reveals green = tension('no green!')->relief beat. Blue solid col2. Order: reds->greens->blues."
+    ]
   }
 }
