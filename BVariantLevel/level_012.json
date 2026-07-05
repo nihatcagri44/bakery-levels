@@ -388,7 +388,7 @@
         "truckId": 0,
         "color": "Blue",
         "capacity": 52,
-		"helicopterPreferred": true,
+		"helicopterPreferred": true
       },
       {
         "truckId": 1,
@@ -419,7 +419,7 @@
         "truckId": 6,
         "color": "Blue",
         "capacity": 52,
-	"helicopterPreferred": true,
+	"helicopterPreferred": true
       }
     ],
     "parkingColumns": [

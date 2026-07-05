@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 2,
   "solvabilityVerified": false,
   "level": {
@@ -695,7 +695,7 @@
         "truckId": 9,
         "color": "Red",
         "capacity": 52,
-        "magnetPreferred": true,
+        "magnetPreferred": true
       },
       {
         "truckId": 10,
